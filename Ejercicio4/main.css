@@ -1,13 +1,16 @@
 .menu {
     margin: 20px;
 }
+
 .menu p {
     background-color: lightskyblue;
     width: 130px;
 }
+
 .menu a :hover {
     color: red;
 }
-.menu a:visited {
+
+.menu a :visited {
     color: green;
 }
