@@ -7,10 +7,10 @@
     width: 130px;
 }
 
-.menu p :hover {
+.menu p:hover {
     color: red;
 }
 
-.menu p :visited {
+.menu p:visited {
     color: green;
 }
