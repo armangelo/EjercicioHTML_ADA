@@ -5,3 +5,14 @@ const users = [
     {username: 'abc123', age: 20, premium: true},
     {username: 'sergio58', age: 26, premium: true},
 ]
+const premiumUsers = [];
+const nonPremiumUsers = [];
+
+for (const user of users) {
+  if (user.premium) {
+    console.log(`El usuario ${user.username} es premium`);
+    premiumUsers.push(user);
+  } else {
+    nonPremiumUsers.push(user);
+  }
+}
