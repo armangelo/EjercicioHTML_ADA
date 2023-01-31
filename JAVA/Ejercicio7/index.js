@@ -1,10 +1,13 @@
-function sumEvenNumbers(numbersArray) {
-    let sum = 0;
-    for (let number of numbersArray) {
-      if (number % 2 === 0) {
-        sum += number;
+function sumarPares(array) {
+    var suma = 0;
+    for (var i = 0; i < array.length; i++) {
+      if (array[i] % 2 == 0) {
+        suma += array[i];
       }
     }
-    return sum;
+    return suma;
   }
-    
+  
+  var numeros = [1, 2, 3, 4, 5];
+  console.log(sumarPares(numeros)); // 6
+  
