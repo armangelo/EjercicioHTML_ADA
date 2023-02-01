@@ -1,4 +1,4 @@
-// Evento para el botón de guardar
+// Evento para el botón de guardar con mensaje
 document.getElementById("MyBtn").addEventListener("click", function() {
     alert("Datos guardados");
 }
