@@ -5,7 +5,7 @@ document.getElementById("MyBtn").addEventListener("click", function() {
   // Evento para el input del nombre
   var nameInput = document.getElementById("Nombre");
   nameInput.addEventListener("focus", function() {
-    nameInput.style.backgroundColor = "lightblue";
+    nameInput.style.backgroundColor = "yellow";
   });
   nameInput.addEventListener("blur", function() {
     nameInput.style.backgroundColor = "white";
