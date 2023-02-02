@@ -1,7 +1,7 @@
 // Evento para el botón de guardar con mensaje
 document.getElementById("MyBtn").addEventListener("click", function() {
     alert("Datos guardados");
-}
+})
   // Evento para el input del nombre
   var nameInput = document.getElementById("Nombre");
   nameInput.addEventListener("focus", function() {
