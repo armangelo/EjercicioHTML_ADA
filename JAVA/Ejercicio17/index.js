@@ -1,12 +1,12 @@
-//Numero de enlaces de la pagina
-const numEnlaces = document.getElementsByTagName("a").length;
-console.log(numEnlaces)
 
-//Direccion a la que enlaza el penultimo link
-const penultimoEnlace = document.getElementsByTagName("a")[numEnlaces - 2].href;
-console.log (penultimoEnlace)
+let enlaces = document.getElementsByTagName("a");
+let numEnlaces = enlaces.length;
+let penultimoEnlace = enlaces[numEnlaces - 2];
+let tercerParrafo = document.getElementById(third-paragraph);
+let numEnlacesTercerParrafo = tercerParrafo.getElementsByTagName("a").length;
 
-//Numero de enlaces del tercer parrafo
-const tercerParrafo = document.getElementById('third-paragraph');
-const numEnlacesTercerParrafo = tercerParrafo.getElementsByTagName("a").length;
-console.log (numEnlacesTercerParrafo)
+let resultados = document.createElement("p");
+resultados.innerHTML = "Número de enlaces de la página: " + numEnlaces +
+"<br>Dirección del penúltimo enlace: " + penultimoEnlace +
+"<br>Número de enlaces del tercer párrafo: " + numEnlacesTercerParrafo;
+document.body.appendChild(resultados); 
